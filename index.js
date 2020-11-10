@@ -58,6 +58,7 @@ io.on('connection', function (socket) {
         }
     })
 
+
     socket.on('disconnect', function (socket) {
 
         console.log(`${this.id} has disconnected`)
